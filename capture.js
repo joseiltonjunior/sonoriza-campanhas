@@ -7,7 +7,7 @@ const path = require('path');
 
   await page.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 1 });
 
-  const filePath = path.resolve(__dirname, 'carrossel-9-slides-FINAL_4.html');
+  const filePath = path.resolve(__dirname, 'campanha.html');
   await page.goto(`file://${filePath}`, { waitUntil: 'networkidle0' });
 
   // Aguarda fontes do Google Fonts carregarem
